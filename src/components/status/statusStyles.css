@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --asset-count-color: #374649;
+    --alert-count-color: #f55767;
+    --task-count-color: #54c0eb;
+    --efficiency-count-color: #fcd238;
+}
+
+#status-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.status-pill {
+    width: 200px;
+    height: 90px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+#data-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Asset Styles */
+
+#asset-count{
+    border-left: 10px solid var(--asset-count-color);
+}
+
+#assert-pill-value {
+    color: var(--asset-count-color);
+}
+
+#robot-icon {
+    height: 65px;
+    width: 65px;
+}
+
+/* Alert Styles */
+
+#alert-icon{
+    height: 55px;
+    width: 55px;
+    margin-left: 5px;
+}
+
+#alert-count{
+    border-left: 10px solid var(--alert-count-color);
+}
+
+#alert-pill-value{
+    color: var(--alert-count-color);
+}
+
+/* Task Styles */
+
+#task-icon{
+    height: 55px;
+    width: 55px;
+    margin-left: 5px;
+}
+
+#task-count{
+    border-left: 10px solid var(--task-count-color);
+}
+
+#task-pill-value{
+    color: var(--task-count-color);
+}
+
+/* Efficiency Styles */
+
+#efficiency-icon{
+    height: 65px;
+    width: 60px;
+    margin-left: 5px;
+}
+
+#efficiency{
+    border-left: 10px solid var(--efficiency-count-color);
+}
+
+#efficiency-pill-value{
+    color: var(--efficiency-count-color);
+}
+
+
+
